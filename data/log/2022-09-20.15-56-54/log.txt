@@ -1,0 +1,112 @@
+info  2022-09-20 15:56:54: Logging to console and directory: '/home/abjith/applications/Zigbee2MQTT/zigbee2mqtt/data/log/2022-09-20.15-56-54' filename: log.txt
+info  2022-09-20 15:56:54: Starting Zigbee2MQTT version 1.27.2 (commit #7dc48fb6)
+info  2022-09-20 15:56:54: Starting zigbee-herdsman (0.14.53)
+info  2022-09-20 15:56:58: zigbee-herdsman started (resumed)
+info  2022-09-20 15:56:58: Coordinator firmware version: '{"meta":{"maintrel":1,"majorrel":2,"minorrel":7,"product":1,"revision":20210708,"transportrev":2},"type":"zStack3x0"}'
+info  2022-09-20 15:56:58: Currently 0 devices are joined:
+warn  2022-09-20 15:56:58: `permit_join` set to  `true` in configuration.yaml.
+warn  2022-09-20 15:56:58: Allowing new devices to join.
+warn  2022-09-20 15:56:58: Set `permit_join` to `false` once you joined all devices.
+info  2022-09-20 15:56:58: Zigbee: allowing new devices to join.
+info  2022-09-20 15:56:58: Connecting to MQTT server at mqtt://localhost:1883
+info  2022-09-20 15:56:58: Connected to MQTT server
+info  2022-09-20 15:56:58: MQTT publish: topic 'zigbee2mqtt/bridge/state', payload '{"state":"online"}'
+info  2022-09-20 15:56:58: Started frontend on port 0.0.0.0:8080
+info  2022-09-20 15:57:04: Device '0x804b50fffea7fd02' joined
+info  2022-09-20 15:57:04: MQTT publish: topic 'zigbee2mqtt/bridge/event', payload '{"data":{"friendly_name":"0x804b50fffea7fd02","ieee_address":"0x804b50fffea7fd02"},"type":"device_joined"}'
+info  2022-09-20 15:57:04: Starting interview of '0x804b50fffea7fd02'
+info  2022-09-20 15:57:04: MQTT publish: topic 'zigbee2mqtt/bridge/event', payload '{"data":{"friendly_name":"0x804b50fffea7fd02","ieee_address":"0x804b50fffea7fd02","status":"started"},"type":"device_interview"}'
+info  2022-09-20 15:57:26: Starting network scan (includeRoutes 'false')
+error 2022-09-20 15:58:33: Failed to execute LQI for '0x804b50fffea7fd02'
+info  2022-09-20 15:58:33: Network scan finished
+info  2022-09-20 15:58:33: MQTT publish: topic 'zigbee2mqtt/bridge/response/networkmap', payload '{"data":{"routes":false,"type":"raw","value":{"links":[{"depth":1,"linkquality":170,"lqi":170,"relationship":1,"routes":[],"source":{"ieeeAddr":"0x804b50fffea7fd02","networkAddress":1432},"sourceIeeeAddr":"0x804b50fffea7fd02","sourceNwkAddr":1432,"target":{"ieeeAddr":"0x00124b0024c93cf2","networkAddress":0},"targetIeeeAddr":"0x00124b0024c93cf2"}],"nodes":[{"definition":null,"failed":[],"friendlyName":"Coordinator","ieeeAddr":"0x00124b0024c93cf2","lastSeen":null,"networkAddress":0,"type":"Coordinator"},{"definition":null,"failed":["lqi"],"friendlyName":"0x804b50fffea7fd02","ieeeAddr":"0x804b50fffea7fd02","lastSeen":1663669627634,"networkAddress":1432,"type":"Unknown"}]}},"status":"ok","transaction":"iy9eg-1"}'
+error 2022-09-20 15:59:42: Failed to interview '0x804b50fffea7fd02', device has not successfully been paired
+info  2022-09-20 15:59:42: MQTT publish: topic 'zigbee2mqtt/bridge/event', payload '{"data":{"friendly_name":"0x804b50fffea7fd02","ieee_address":"0x804b50fffea7fd02","status":"failed"},"type":"device_interview"}'
+info  2022-09-20 16:01:11: Starting interview of '0x804b50fffea7fd02'
+info  2022-09-20 16:01:11: MQTT publish: topic 'zigbee2mqtt/bridge/event', payload '{"data":{"friendly_name":"0x804b50fffea7fd02","ieee_address":"0x804b50fffea7fd02","status":"started"},"type":"device_interview"}'
+error 2022-09-20 16:01:49: Failed to interview '0x804b50fffea7fd02', device has not successfully been paired
+info  2022-09-20 16:01:49: MQTT publish: topic 'zigbee2mqtt/bridge/event', payload '{"data":{"friendly_name":"0x804b50fffea7fd02","ieee_address":"0x804b50fffea7fd02","status":"failed"},"type":"device_interview"}'
+info  2022-09-20 16:03:00: Starting interview of '0x804b50fffea7fd02'
+info  2022-09-20 16:03:00: MQTT publish: topic 'zigbee2mqtt/bridge/event', payload '{"data":{"friendly_name":"0x804b50fffea7fd02","ieee_address":"0x804b50fffea7fd02","status":"started"},"type":"device_interview"}'
+info  2022-09-20 16:03:16: MQTT publish: topic 'zigbee2mqtt/bridge/event', payload '{"data":{"friendly_name":"0x804b50fffea7fd02","ieee_address":"0x804b50fffea7fd02"},"type":"device_announce"}'
+info  2022-09-20 16:03:20: MQTT publish: topic 'zigbee2mqtt/0x804b50fffea7fd02', payload '{"linkquality":18,"state":"OFF"}'
+error 2022-09-20 16:03:31: Failed to interview '0x804b50fffea7fd02', device has not successfully been paired
+info  2022-09-20 16:03:31: MQTT publish: topic 'zigbee2mqtt/bridge/event', payload '{"data":{"friendly_name":"0x804b50fffea7fd02","ieee_address":"0x804b50fffea7fd02","status":"failed"},"type":"device_interview"}'
+info  2022-09-20 16:05:46: MQTT publish: topic 'zigbee2mqtt/0x804b50fffea7fd02', payload '{"linkquality":15,"state":"OFF"}'
+info  2022-09-20 16:13:45: MQTT publish: topic 'zigbee2mqtt/0x804b50fffea7fd02', payload '{"linkquality":24,"state":"OFF"}'
+info  2022-09-20 16:14:56: Starting network scan (includeRoutes 'false')
+error 2022-09-20 16:15:23: Failed to execute LQI for '0x804b50fffea7fd02'
+info  2022-09-20 16:15:23: Network scan finished
+info  2022-09-20 16:15:23: MQTT publish: topic 'zigbee2mqtt/bridge/response/networkmap', payload '{"data":{"routes":false,"type":"raw","value":{"links":[{"depth":255,"linkquality":0,"lqi":0,"relationship":2,"routes":[],"source":{"ieeeAddr":"0x804b50fffea7fd02","networkAddress":17683},"sourceIeeeAddr":"0x804b50fffea7fd02","sourceNwkAddr":17683,"target":{"ieeeAddr":"0x00124b0024c93cf2","networkAddress":0},"targetIeeeAddr":"0x00124b0024c93cf2"}],"nodes":[{"definition":null,"failed":[],"friendlyName":"Coordinator","ieeeAddr":"0x00124b0024c93cf2","lastSeen":null,"networkAddress":0,"type":"Coordinator"},{"definition":{"description":"Zigbee two way smart switch","model":"ZBMINI","supports":"switch (state), linkquality","vendor":"SONOFF"},"failed":["lqi"],"friendlyName":"0x804b50fffea7fd02","ieeeAddr":"0x804b50fffea7fd02","lastSeen":1663670625027,"manufacturerName":"SONOFF","modelID":"01MINIZB","networkAddress":17683,"type":"Router"}]}},"status":"ok","transaction":"95r4t-1"}'
+error 2022-09-20 16:30:23: Publish 'set' 'state' to '0x804b50fffea7fd02' failed: 'Error: Command 0x804b50fffea7fd02/1 genOnOff.on({}, {"sendWhen":"immediate","timeout":10000,"disableResponse":false,"disableRecovery":false,"disableDefaultResponse":false,"direction":0,"srcEndpoint":null,"reservedBits":0,"manufacturerCode":null,"transactionSequenceNumber":null,"writeUndiv":false}) failed (Data request failed with error: 'MAC no ack' (233))'
+error 2022-09-20 16:30:40: Publish 'set' 'state' to '0x804b50fffea7fd02' failed: 'Error: Command 0x804b50fffea7fd02/1 genOnOff.on({}, {"sendWhen":"immediate","timeout":10000,"disableResponse":false,"disableRecovery":false,"disableDefaultResponse":false,"direction":0,"srcEndpoint":null,"reservedBits":0,"manufacturerCode":null,"transactionSequenceNumber":null,"writeUndiv":false}) failed (Data request failed with error: 'MAC no ack' (233))'
+error 2022-09-20 16:30:58: Publish 'get' 'state' to '0x804b50fffea7fd02' failed: 'Error: Read 0x804b50fffea7fd02/1 genOnOff(["onOff"], {"sendWhen":"immediate","timeout":10000,"disableResponse":false,"disableRecovery":false,"disableDefaultResponse":true,"direction":0,"srcEndpoint":null,"reservedBits":0,"manufacturerCode":null,"transactionSequenceNumber":null,"writeUndiv":false}) failed (Data request failed with error: 'MAC no ack' (233))'
+error 2022-09-20 16:31:15: Publish 'set' 'state' to '0x804b50fffea7fd02' failed: 'Error: Command 0x804b50fffea7fd02/1 genOnOff.on({}, {"sendWhen":"immediate","timeout":10000,"disableResponse":false,"disableRecovery":false,"disableDefaultResponse":false,"direction":0,"srcEndpoint":null,"reservedBits":0,"manufacturerCode":null,"transactionSequenceNumber":null,"writeUndiv":false}) failed (Data request failed with error: 'MAC no ack' (233))'
+info  2022-09-20 16:31:31: Removing device '0x804b50fffea7fd02' (block: false, force: true)
+info  2022-09-20 16:31:31: MQTT publish: topic 'zigbee2mqtt/0x804b50fffea7fd02', payload ''
+info  2022-09-20 16:31:31: Successfully removed device '0x804b50fffea7fd02' (block: false, force: true)
+info  2022-09-20 16:31:31: MQTT publish: topic 'zigbee2mqtt/bridge/response/device/remove', payload '{"data":{"block":false,"force":true,"id":"0x804b50fffea7fd02"},"status":"ok","transaction":"radv7-1"}'
+error 2022-09-20 16:31:33: Publish 'get' 'state' to '0x804b50fffea7fd02' failed: 'Error: Read 0x804b50fffea7fd02/1 genOnOff(["onOff"], {"sendWhen":"immediate","timeout":10000,"disableResponse":false,"disableRecovery":false,"disableDefaultResponse":true,"direction":0,"srcEndpoint":null,"reservedBits":0,"manufacturerCode":null,"transactionSequenceNumber":null,"writeUndiv":false}) failed (Data request failed with error: 'MAC no ack' (233))'
+info  2022-09-20 16:31:38: Zigbee: disabling joining new devices.
+info  2022-09-20 16:31:38: MQTT publish: topic 'zigbee2mqtt/bridge/response/permit_join', payload '{"data":{"time":254,"value":false},"status":"ok","transaction":"te6oc-1"}'
+info  2022-09-20 16:31:39: Zigbee: allowing new devices to join.
+info  2022-09-20 16:31:40: MQTT publish: topic 'zigbee2mqtt/bridge/response/permit_join', payload '{"data":{"time":254,"value":true},"status":"ok","transaction":"te6oc-2"}'
+error 2022-09-20 16:31:50: Publish 'get' 'state' to '0x804b50fffea7fd02' failed: 'Error: Read 0x804b50fffea7fd02/1 genOnOff(["onOff"], {"sendWhen":"immediate","timeout":10000,"disableResponse":false,"disableRecovery":false,"disableDefaultResponse":true,"direction":0,"srcEndpoint":null,"reservedBits":0,"manufacturerCode":null,"transactionSequenceNumber":null,"writeUndiv":false}) failed (Data request failed with error: 'MAC no ack' (233))'
+error 2022-09-20 16:32:08: Publish 'set' 'state' to '0x804b50fffea7fd02' failed: 'Error: Command 0x804b50fffea7fd02/1 genOnOff.on({}, {"sendWhen":"immediate","timeout":10000,"disableResponse":false,"disableRecovery":false,"disableDefaultResponse":false,"direction":0,"srcEndpoint":null,"reservedBits":0,"manufacturerCode":null,"transactionSequenceNumber":null,"writeUndiv":false}) failed (Data request failed with error: 'MAC no ack' (233))'
+info  2022-09-20 16:33:38: Zigbee: disabling joining new devices.
+info  2022-09-20 16:33:38: MQTT publish: topic 'zigbee2mqtt/bridge/response/permit_join', payload '{"data":{"time":254,"value":false},"status":"ok","transaction":"ehqwg-1"}'
+info  2022-09-20 16:33:39: Zigbee: allowing new devices to join.
+info  2022-09-20 16:33:39: MQTT publish: topic 'zigbee2mqtt/bridge/response/permit_join', payload '{"data":{"time":254,"value":true},"status":"ok","transaction":"ehqwg-2"}'
+info  2022-09-20 16:34:36: Starting network scan (includeRoutes 'false')
+info  2022-09-20 16:34:37: Network scan finished
+info  2022-09-20 16:34:37: MQTT publish: topic 'zigbee2mqtt/bridge/response/networkmap', payload '{"data":{"routes":false,"type":"raw","value":{"links":[{"depth":255,"linkquality":0,"lqi":0,"relationship":2,"routes":[],"source":{"ieeeAddr":"0x0000000000000000","networkAddress":17683},"sourceIeeeAddr":"0x0000000000000000","sourceNwkAddr":17683,"target":{"ieeeAddr":"0x00124b0024c93cf2","networkAddress":0},"targetIeeeAddr":"0x00124b0024c93cf2"}],"nodes":[{"definition":null,"failed":[],"friendlyName":"Coordinator","ieeeAddr":"0x00124b0024c93cf2","lastSeen":null,"networkAddress":0,"type":"Coordinator"}]}},"status":"ok","transaction":"ehqwg-3"}'
+info  2022-09-20 16:38:00: Zigbee: allowing new devices to join.
+info  2022-09-20 16:38:00: MQTT publish: topic 'zigbee2mqtt/bridge/response/permit_join', payload '{"data":{"time":254,"value":true},"status":"ok","transaction":"ehqwg-4"}'
+info  2022-09-20 16:38:19: Device '0x804b50fffea7fd02' joined
+info  2022-09-20 16:38:19: MQTT publish: topic 'zigbee2mqtt/bridge/event', payload '{"data":{"friendly_name":"0x804b50fffea7fd02","ieee_address":"0x804b50fffea7fd02"},"type":"device_joined"}'
+info  2022-09-20 16:38:19: Starting interview of '0x804b50fffea7fd02'
+info  2022-09-20 16:38:19: MQTT publish: topic 'zigbee2mqtt/bridge/event', payload '{"data":{"friendly_name":"0x804b50fffea7fd02","ieee_address":"0x804b50fffea7fd02","status":"started"},"type":"device_interview"}'
+error 2022-09-20 16:39:01: Failed to interview '0x804b50fffea7fd02', device has not successfully been paired
+info  2022-09-20 16:39:01: MQTT publish: topic 'zigbee2mqtt/bridge/event', payload '{"data":{"friendly_name":"0x804b50fffea7fd02","ieee_address":"0x804b50fffea7fd02","status":"failed"},"type":"device_interview"}'
+error 2022-09-20 16:40:25: Publish 'get' 'state' to '0x804b50fffea7fd02' failed: 'Error: Read 0x804b50fffea7fd02/1 genOnOff(["onOff"], {"sendWhen":"immediate","timeout":10000,"disableResponse":false,"disableRecovery":false,"disableDefaultResponse":true,"direction":0,"srcEndpoint":null,"reservedBits":0,"manufacturerCode":null,"transactionSequenceNumber":null,"writeUndiv":false}) failed (Data request failed with error: 'MAC no ack' (233))'
+error 2022-09-20 16:40:43: Publish 'set' 'state' to '0x804b50fffea7fd02' failed: 'Error: Command 0x804b50fffea7fd02/1 genOnOff.on({}, {"sendWhen":"immediate","timeout":10000,"disableResponse":false,"disableRecovery":false,"disableDefaultResponse":false,"direction":0,"srcEndpoint":null,"reservedBits":0,"manufacturerCode":null,"transactionSequenceNumber":null,"writeUndiv":false}) failed (Data request failed with error: 'MAC no ack' (233))'
+error 2022-09-20 16:41:00: Publish 'set' 'state' to '0x804b50fffea7fd02' failed: 'Error: Command 0x804b50fffea7fd02/1 genOnOff.off({}, {"sendWhen":"immediate","timeout":10000,"disableResponse":false,"disableRecovery":false,"disableDefaultResponse":false,"direction":0,"srcEndpoint":null,"reservedBits":0,"manufacturerCode":null,"transactionSequenceNumber":null,"writeUndiv":false}) failed (Data request failed with error: 'MAC no ack' (233))'
+error 2022-09-20 16:41:17: Publish 'set' 'state' to '0x804b50fffea7fd02' failed: 'Error: Command 0x804b50fffea7fd02/1 genOnOff.on({}, {"sendWhen":"immediate","timeout":10000,"disableResponse":false,"disableRecovery":false,"disableDefaultResponse":false,"direction":0,"srcEndpoint":null,"reservedBits":0,"manufacturerCode":null,"transactionSequenceNumber":null,"writeUndiv":false}) failed (Data request failed with error: 'MAC no ack' (233))'
+info  2022-09-20 16:41:24: Starting network scan (includeRoutes 'false')
+error 2022-09-20 16:41:35: Publish 'set' 'state' to '0x804b50fffea7fd02' failed: 'Error: Command 0x804b50fffea7fd02/1 genOnOff.off({}, {"sendWhen":"immediate","timeout":10000,"disableResponse":false,"disableRecovery":false,"disableDefaultResponse":false,"direction":0,"srcEndpoint":null,"reservedBits":0,"manufacturerCode":null,"transactionSequenceNumber":null,"writeUndiv":false}) failed (Data request failed with error: 'MAC no ack' (233))'
+error 2022-09-20 16:41:52: Publish 'set' 'state' to '0x804b50fffea7fd02' failed: 'Error: Command 0x804b50fffea7fd02/1 genOnOff.on({}, {"sendWhen":"immediate","timeout":10000,"disableResponse":false,"disableRecovery":false,"disableDefaultResponse":false,"direction":0,"srcEndpoint":null,"reservedBits":0,"manufacturerCode":null,"transactionSequenceNumber":null,"writeUndiv":false}) failed (Data request failed with error: 'MAC no ack' (233))'
+error 2022-09-20 16:42:17: Failed to execute LQI for '0x804b50fffea7fd02'
+info  2022-09-20 16:42:17: Network scan finished
+info  2022-09-20 16:42:17: MQTT publish: topic 'zigbee2mqtt/bridge/response/networkmap', payload '{"data":{"routes":false,"type":"raw","value":{"links":[{"depth":255,"linkquality":0,"lqi":0,"relationship":2,"routes":[],"source":{"ieeeAddr":"0x0000000000000000","networkAddress":17683},"sourceIeeeAddr":"0x0000000000000000","sourceNwkAddr":17683,"target":{"ieeeAddr":"0x00124b0024c93cf2","networkAddress":0},"targetIeeeAddr":"0x00124b0024c93cf2"}],"nodes":[{"definition":null,"failed":[],"friendlyName":"Coordinator","ieeeAddr":"0x00124b0024c93cf2","lastSeen":null,"networkAddress":0,"type":"Coordinator"},{"definition":{"description":"Zigbee two way smart switch","model":"ZBMINI","supports":"switch (state), linkquality","vendor":"SONOFF"},"failed":["lqi"],"friendlyName":"0x804b50fffea7fd02","ieeeAddr":"0x804b50fffea7fd02","lastSeen":1663672129071,"manufacturerName":"SONOFF","modelID":"01MINIZB","networkAddress":55203,"type":"Router"}]}},"status":"ok","transaction":"gyiui-1"}'
+info  2022-09-20 16:43:43: Starting network scan (includeRoutes 'false')
+error 2022-09-20 16:44:10: Failed to execute LQI for '0x804b50fffea7fd02'
+info  2022-09-20 16:44:10: Network scan finished
+info  2022-09-20 16:44:10: MQTT publish: topic 'zigbee2mqtt/bridge/response/networkmap', payload '{"data":{"routes":false,"type":"raw","value":{"links":[{"depth":255,"linkquality":0,"lqi":0,"relationship":2,"routes":[],"source":{"ieeeAddr":"0x0000000000000000","networkAddress":17683},"sourceIeeeAddr":"0x0000000000000000","sourceNwkAddr":17683,"target":{"ieeeAddr":"0x00124b0024c93cf2","networkAddress":0},"targetIeeeAddr":"0x00124b0024c93cf2"}],"nodes":[{"definition":null,"failed":[],"friendlyName":"Coordinator","ieeeAddr":"0x00124b0024c93cf2","lastSeen":null,"networkAddress":0,"type":"Coordinator"},{"definition":{"description":"Zigbee two way smart switch","model":"ZBMINI","supports":"switch (state), linkquality","vendor":"SONOFF"},"failed":["lqi"],"friendlyName":"0x804b50fffea7fd02","ieeeAddr":"0x804b50fffea7fd02","lastSeen":1663672129071,"manufacturerName":"SONOFF","modelID":"01MINIZB","networkAddress":55203,"type":"Router"}]}},"status":"ok","transaction":"5l7io-1"}'
+info  2022-09-20 17:17:58: Removing device '0x804b50fffea7fd02' (block: false, force: false)
+error 2022-09-20 17:18:08: Request 'zigbee2mqtt/bridge/request/device/remove' failed with error: 'Failed to remove device '0x804b50fffea7fd02' (block: false, force: false) (Error: AREQ - ZDO - mgmtLeaveRsp after 10000ms)'
+info  2022-09-20 17:18:08: MQTT publish: topic 'zigbee2mqtt/bridge/response/device/remove', payload '{"data":{},"error":"Failed to remove device '0x804b50fffea7fd02' (block: false, force: false) (Error: AREQ - ZDO - mgmtLeaveRsp after 10000ms)","status":"error","transaction":"8e1q1-1"}'
+info  2022-09-20 17:18:17: Removing device '0x804b50fffea7fd02' (block: false, force: true)
+info  2022-09-20 17:18:17: MQTT publish: topic 'zigbee2mqtt/0x804b50fffea7fd02', payload ''
+info  2022-09-20 17:18:17: Successfully removed device '0x804b50fffea7fd02' (block: false, force: true)
+info  2022-09-20 17:18:17: MQTT publish: topic 'zigbee2mqtt/bridge/response/device/remove', payload '{"data":{"block":false,"force":true,"id":"0x804b50fffea7fd02"},"status":"ok","transaction":"eaoyi-1"}'
+info  2022-09-20 17:18:23: Zigbee: allowing new devices to join.
+info  2022-09-20 17:18:23: MQTT publish: topic 'zigbee2mqtt/bridge/response/permit_join', payload '{"data":{"time":254,"value":true},"status":"ok","transaction":"14u58-1"}'
+info  2022-09-20 17:18:30: Device '0x804b50fffea7fd02' joined
+info  2022-09-20 17:18:30: MQTT publish: topic 'zigbee2mqtt/bridge/event', payload '{"data":{"friendly_name":"0x804b50fffea7fd02","ieee_address":"0x804b50fffea7fd02"},"type":"device_joined"}'
+info  2022-09-20 17:18:30: Starting interview of '0x804b50fffea7fd02'
+info  2022-09-20 17:18:30: MQTT publish: topic 'zigbee2mqtt/bridge/event', payload '{"data":{"friendly_name":"0x804b50fffea7fd02","ieee_address":"0x804b50fffea7fd02","status":"started"},"type":"device_interview"}'
+info  2022-09-20 17:18:48: Starting network scan (includeRoutes 'false')
+info  2022-09-20 17:19:10: MQTT publish: topic 'zigbee2mqtt/0x804b50fffea7fd02', payload '{"linkquality":9,"state":"OFF"}'
+error 2022-09-20 17:19:22: Failed to execute LQI for '0x804b50fffea7fd02'
+info  2022-09-20 17:19:22: Network scan finished
+info  2022-09-20 17:19:22: MQTT publish: topic 'zigbee2mqtt/bridge/response/networkmap', payload '{"data":{"routes":false,"type":"raw","value":{"links":[{"depth":1,"linkquality":170,"lqi":170,"relationship":1,"routes":[],"source":{"ieeeAddr":"0x804b50fffea7fd02","networkAddress":14072},"sourceIeeeAddr":"0x804b50fffea7fd02","sourceNwkAddr":14072,"target":{"ieeeAddr":"0x00124b0024c93cf2","networkAddress":0},"targetIeeeAddr":"0x00124b0024c93cf2"},{"depth":255,"linkquality":0,"lqi":0,"relationship":2,"routes":[],"source":{"ieeeAddr":"0x0000000000000000","networkAddress":17683},"sourceIeeeAddr":"0x0000000000000000","sourceNwkAddr":17683,"target":{"ieeeAddr":"0x00124b0024c93cf2","networkAddress":0},"targetIeeeAddr":"0x00124b0024c93cf2"}],"nodes":[{"definition":null,"failed":[],"friendlyName":"Coordinator","ieeeAddr":"0x00124b0024c93cf2","lastSeen":null,"networkAddress":0,"type":"Coordinator"},{"definition":{"description":"Zigbee two way smart switch","model":"ZBMINI","supports":"switch (state), linkquality","vendor":"SONOFF"},"failed":["lqi"],"friendlyName":"0x804b50fffea7fd02","ieeeAddr":"0x804b50fffea7fd02","lastSeen":1663674550495,"manufacturerName":"SONOFF","modelID":"01MINIZB","networkAddress":14072,"type":"Router"}]}},"status":"ok","transaction":"14u58-2"}'
+info  2022-09-20 17:19:59: Successfully interviewed '0x804b50fffea7fd02', device has successfully been paired
+info  2022-09-20 17:19:59: Device '0x804b50fffea7fd02' is supported, identified as: SONOFF Zigbee two way smart switch (ZBMINI)
+info  2022-09-20 17:19:59: MQTT publish: topic 'zigbee2mqtt/bridge/event', payload '{"data":{"definition":{"description":"Zigbee two way smart switch","exposes":[{"features":[{"access":7,"description":"On/off state of the switch","name":"state","property":"state","type":"binary","value_off":"OFF","value_on":"ON","value_toggle":"TOGGLE"}],"type":"switch"},{"access":1,"description":"Link quality (signal strength)","name":"linkquality","property":"linkquality","type":"numeric","unit":"lqi","value_max":255,"value_min":0}],"model":"ZBMINI","options":[],"supports_ota":false,"vendor":"SONOFF"},"friendly_name":"0x804b50fffea7fd02","ieee_address":"0x804b50fffea7fd02","status":"successful","supported":true},"type":"device_interview"}'
+info  2022-09-20 17:19:59: Configuring '0x804b50fffea7fd02'
+info  2022-09-20 17:19:59: Successfully configured '0x804b50fffea7fd02'
+error 2022-09-20 17:27:31: Adapter disconnected, stopping
+info  2022-09-20 17:27:31: MQTT publish: topic 'zigbee2mqtt/bridge/state', payload '{"state":"offline"}'
+info  2022-09-20 17:27:31: Disconnecting from MQTT server
+info  2022-09-20 17:27:31: Stopping zigbee-herdsman...
+error 2022-09-20 17:27:31: Failed to stop Zigbee2MQTT

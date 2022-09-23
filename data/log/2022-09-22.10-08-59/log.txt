@@ -1,0 +1,24 @@
+info  2022-09-22 10:08:59: Logging to console and directory: '/home/abjith/applications/Zigbee2MQTT/zigbee2mqtt/data/log/2022-09-22.10-08-59' filename: log.txt
+info  2022-09-22 10:08:59: Starting Zigbee2MQTT version 1.27.2 (commit #7dc48fb6)
+info  2022-09-22 10:08:59: Starting zigbee-herdsman (0.14.53)
+info  2022-09-22 10:09:00: zigbee-herdsman started (resumed)
+info  2022-09-22 10:09:00: Coordinator firmware version: '{"meta":{"maintrel":1,"majorrel":2,"minorrel":7,"product":1,"revision":20210708,"transportrev":2},"type":"zStack3x0"}'
+info  2022-09-22 10:09:00: Currently 1 devices are joined:
+info  2022-09-22 10:09:00: Smart_switch (0x804b50fffea7fd02): ZBMINI - SONOFF Zigbee two way smart switch (Router)
+warn  2022-09-22 10:09:00: `permit_join` set to  `true` in configuration.yaml.
+warn  2022-09-22 10:09:00: Allowing new devices to join.
+warn  2022-09-22 10:09:00: Set `permit_join` to `false` once you joined all devices.
+info  2022-09-22 10:09:00: Zigbee: allowing new devices to join.
+info  2022-09-22 10:09:00: Connecting to MQTT server at mqtt://localhost:1883
+info  2022-09-22 10:09:00: Connected to MQTT server
+info  2022-09-22 10:09:00: MQTT publish: topic 'zigbee2mqtt/bridge/state', payload '{"state":"online"}'
+info  2022-09-22 10:09:00: Started frontend on port 0.0.0.0:8080
+info  2022-09-22 10:09:00: MQTT publish: topic 'zigbee2mqtt/Smart_switch', payload '{"linkquality":15,"state":"OFF"}'
+error 2022-09-22 10:09:59: Publish 'set' 'state' to 'Smart_switch' failed: 'Error: Command 0x804b50fffea7fd02/1 genOnOff.on({}, {"sendWhen":"immediate","timeout":10000,"disableResponse":false,"disableRecovery":false,"disableDefaultResponse":false,"direction":0,"srcEndpoint":null,"reservedBits":0,"manufacturerCode":null,"transactionSequenceNumber":null,"writeUndiv":false}) failed (Data request failed with error: 'MAC no ack' (233))'
+error 2022-09-22 10:15:40: Publish 'set' 'state' to 'Smart_switch' failed: 'Error: Command 0x804b50fffea7fd02/1 genOnOff.on({}, {"sendWhen":"immediate","timeout":10000,"disableResponse":false,"disableRecovery":false,"disableDefaultResponse":false,"direction":0,"srcEndpoint":null,"reservedBits":0,"manufacturerCode":null,"transactionSequenceNumber":null,"writeUndiv":false}) failed (Data request failed with error: 'MAC no ack' (233))'
+error 2022-09-22 10:15:58: Publish 'set' 'state' to 'Smart_switch' failed: 'Error: Command 0x804b50fffea7fd02/1 genOnOff.on({}, {"sendWhen":"immediate","timeout":10000,"disableResponse":false,"disableRecovery":false,"disableDefaultResponse":false,"direction":0,"srcEndpoint":null,"reservedBits":0,"manufacturerCode":null,"transactionSequenceNumber":null,"writeUndiv":false}) failed (Data request failed with error: 'MAC no ack' (233))'
+info  2022-09-22 10:18:06: MQTT publish: topic 'zigbee2mqtt/bridge/state', payload '{"state":"offline"}'
+info  2022-09-22 10:18:06: Disconnecting from MQTT server
+info  2022-09-22 10:18:06: Stopping zigbee-herdsman...
+info  2022-09-22 10:18:15: Stopped zigbee-herdsman
+info  2022-09-22 10:18:15: Stopped Zigbee2MQTT

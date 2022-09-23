@@ -1,0 +1,33 @@
+info  2022-09-22 10:23:50: Logging to console and directory: '/home/abjith/applications/Zigbee2MQTT/zigbee2mqtt/data/log/2022-09-22.10-23-50' filename: log.txt
+info  2022-09-22 10:23:50: Starting Zigbee2MQTT version 1.27.2 (commit #7dc48fb6)
+info  2022-09-22 10:23:50: Starting zigbee-herdsman (0.14.53)
+info  2022-09-22 10:23:51: zigbee-herdsman started (resumed)
+info  2022-09-22 10:23:51: Coordinator firmware version: '{"meta":{"maintrel":1,"majorrel":2,"minorrel":7,"product":1,"revision":20210708,"transportrev":2},"type":"zStack3x0"}'
+info  2022-09-22 10:30:46: Currently 1 devices are joined:
+info  2022-09-22 10:30:47: Smart_switch (0x804b50fffea7fd02): ZBMINI - SONOFF Zigbee two way smart switch (Router)
+warn  2022-09-22 10:30:47: `permit_join` set to  `true` in configuration.yaml.
+warn  2022-09-22 10:30:47: Allowing new devices to join.
+warn  2022-09-22 10:30:47: Set `permit_join` to `false` once you joined all devices.
+info  2022-09-22 10:30:47: Zigbee: allowing new devices to join.
+info  2022-09-22 10:30:48: Connecting to MQTT server at mqtt://localhost:1883
+info  2022-09-22 10:30:48: Connected to MQTT server
+info  2022-09-22 10:30:48: MQTT publish: topic 'zigbee2mqtt/bridge/state', payload '{"state":"online"}'
+info  2022-09-22 10:30:48: Started frontend on port 0.0.0.0:8080
+info  2022-09-22 10:30:48: MQTT publish: topic 'zigbee2mqtt/Smart_switch', payload '{"linkquality":15,"state":"OFF"}'
+info  2022-09-22 10:30:56: Removing device 'Smart_switch' (block: false, force: true)
+info  2022-09-22 10:30:56: MQTT publish: topic 'zigbee2mqtt/Smart_switch', payload ''
+info  2022-09-22 10:30:56: Successfully removed device 'Smart_switch' (block: false, force: true)
+info  2022-09-22 10:30:56: MQTT publish: topic 'zigbee2mqtt/bridge/response/device/remove', payload '{"data":{"block":false,"force":true,"id":"Smart_switch"},"status":"ok","transaction":"fz4y2-3"}'
+info  2022-09-22 10:31:23: Zigbee: disabling joining new devices.
+info  2022-09-22 10:31:23: MQTT publish: topic 'zigbee2mqtt/bridge/response/permit_join', payload '{"data":{"time":254,"value":false},"status":"ok","transaction":"u3rk8-1"}'
+info  2022-09-22 10:31:25: Zigbee: allowing new devices to join.
+info  2022-09-22 10:31:25: MQTT publish: topic 'zigbee2mqtt/bridge/response/permit_join', payload '{"data":{"time":254,"value":true},"status":"ok","transaction":"u3rk8-2"}'
+info  2022-09-22 10:32:22: Zigbee: disabling joining new devices.
+info  2022-09-22 10:32:22: MQTT publish: topic 'zigbee2mqtt/bridge/response/permit_join', payload '{"data":{"time":254,"value":false},"status":"ok","transaction":"snr83-1"}'
+info  2022-09-22 10:32:26: Zigbee: allowing new devices to join.
+info  2022-09-22 10:32:27: MQTT publish: topic 'zigbee2mqtt/bridge/response/permit_join', payload '{"data":{"time":254,"value":true},"status":"ok","transaction":"snr83-2"}'
+error 2022-09-22 10:36:03: Adapter disconnected, stopping
+info  2022-09-22 10:36:03: MQTT publish: topic 'zigbee2mqtt/bridge/state', payload '{"state":"offline"}'
+info  2022-09-22 10:36:03: Disconnecting from MQTT server
+info  2022-09-22 10:36:03: Stopping zigbee-herdsman...
+error 2022-09-22 10:36:03: Failed to stop Zigbee2MQTT

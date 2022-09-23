@@ -1,0 +1,21 @@
+info  2022-09-22 10:18:17: Logging to console and directory: '/home/abjith/applications/Zigbee2MQTT/zigbee2mqtt/data/log/2022-09-22.10-18-17' filename: log.txt
+info  2022-09-22 10:18:17: Starting Zigbee2MQTT version 1.27.2 (commit #7dc48fb6)
+info  2022-09-22 10:18:17: Starting zigbee-herdsman (0.14.53)
+info  2022-09-22 10:18:18: zigbee-herdsman started (resumed)
+info  2022-09-22 10:18:18: Coordinator firmware version: '{"meta":{"maintrel":1,"majorrel":2,"minorrel":7,"product":1,"revision":20210708,"transportrev":2},"type":"zStack3x0"}'
+info  2022-09-22 10:18:18: Currently 1 devices are joined:
+info  2022-09-22 10:18:18: Smart_switch (0x804b50fffea7fd02): ZBMINI - SONOFF Zigbee two way smart switch (Router)
+warn  2022-09-22 10:18:18: `permit_join` set to  `true` in configuration.yaml.
+warn  2022-09-22 10:18:18: Allowing new devices to join.
+warn  2022-09-22 10:18:18: Set `permit_join` to `false` once you joined all devices.
+info  2022-09-22 10:18:18: Zigbee: allowing new devices to join.
+info  2022-09-22 10:18:18: Connecting to MQTT server at mqtt://localhost:1883
+info  2022-09-22 10:18:18: Connected to MQTT server
+info  2022-09-22 10:18:18: MQTT publish: topic 'zigbee2mqtt/bridge/state', payload '{"state":"online"}'
+info  2022-09-22 10:18:18: Started frontend on port 0.0.0.0:8080
+info  2022-09-22 10:18:18: MQTT publish: topic 'zigbee2mqtt/Smart_switch', payload '{"linkquality":15,"state":"OFF"}'
+info  2022-09-22 10:22:38: MQTT publish: topic 'zigbee2mqtt/bridge/state', payload '{"state":"offline"}'
+info  2022-09-22 10:22:38: Disconnecting from MQTT server
+info  2022-09-22 10:22:38: Stopping zigbee-herdsman...
+info  2022-09-22 10:22:47: Stopped zigbee-herdsman
+info  2022-09-22 10:22:47: Stopped Zigbee2MQTT

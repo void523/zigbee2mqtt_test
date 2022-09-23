@@ -1,0 +1,18 @@
+info  2022-09-22 09:54:46: Logging to console and directory: '/home/abjith/applications/Zigbee2MQTT/zigbee2mqtt/data/log/2022-09-22.09-54-46' filename: log.txt
+info  2022-09-22 09:54:46: Starting Zigbee2MQTT version 1.27.2 (commit #7dc48fb6)
+info  2022-09-22 09:54:46: Starting zigbee-herdsman (0.14.53)
+info  2022-09-22 09:54:50: zigbee-herdsman started (resumed)
+info  2022-09-22 09:54:50: Coordinator firmware version: '{"meta":{"maintrel":1,"majorrel":2,"minorrel":7,"product":1,"revision":20210708,"transportrev":2},"type":"zStack3x0"}'
+info  2022-09-22 09:54:50: Currently 1 devices are joined:
+info  2022-09-22 09:54:50: 0x804b50fffea7fd02 (0x804b50fffea7fd02): ZBMINI - SONOFF Zigbee two way smart switch (Router)
+info  2022-09-22 09:54:50: Zigbee: disabling joining new devices.
+info  2022-09-22 09:54:50: Connecting to MQTT server at mqtt://localhost:1883
+info  2022-09-22 09:54:50: Connected to MQTT server
+info  2022-09-22 09:54:50: MQTT publish: topic 'zigbee2mqtt/bridge/state', payload '{"state":"online"}'
+info  2022-09-22 09:54:50: Started frontend on port 0.0.0.0:8080
+info  2022-09-22 09:54:50: MQTT publish: topic 'zigbee2mqtt/0x804b50fffea7fd02', payload '{"state":"OFF"}'
+error 2022-09-22 09:56:47: Adapter disconnected, stopping
+info  2022-09-22 09:56:47: MQTT publish: topic 'zigbee2mqtt/bridge/state', payload '{"state":"offline"}'
+info  2022-09-22 09:56:47: Disconnecting from MQTT server
+info  2022-09-22 09:56:47: Stopping zigbee-herdsman...
+error 2022-09-22 09:56:47: Failed to stop Zigbee2MQTT
